@@ -15,9 +15,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function test1(){
-        return json_encode('success1');
-    }
+    
 
     public function test2(Request $req){
         // return json_encode('success2');
